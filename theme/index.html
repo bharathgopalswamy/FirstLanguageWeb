@@ -38,7 +38,10 @@
   <link rel="stylesheet" href="css/style.css">
   
   <!--Favicon-->
- 
+
+
+  
+
 
 </head>
 
@@ -66,46 +69,45 @@
     </div>
   </div> -->
 
-  <div id="navbar">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg px-0 py-2">
-			<div>
-				<a class="navbar-brand" href="index.html">
-					<img src="../source/images/fllogobg.png" alt="Logo" style="width: 75px; height: 75px;">
-				</a>
-			</div>
-			
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-              aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="fa fa-bars"></span>
-            </button>
-      
-            <div class="collapse navbar-collapse text-center" id="navbarsExample09">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown @@about">
-                  <a class="nav-link dropdown-toggle" href="products.html" aria-haspopup="true" aria-expanded="false">Products</a>
-                  
-                </li>
-                <li class="nav-item @@service"><a class="nav-link" href="service.html">APIs</a></li>
-                
-                <li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact</a></li>
-              </ul>
-      
-              <div class="my-2 my-md-0 ml-lg-4 text-center">
-                <a href="contact.html" class="btn btn-solid-border btn-round-full">Get a Quote</a>
+  <header>
+    <div id="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg px-0 py-2">
+              <div>
+                <a class="navbar-brand" href="index.html">
+                  <img src="../source/images/fllogobg.png" alt="Logo" style="width: 75px; height: 75px;">
+                </a>
               </div>
-            </div>
-          </nav>
+              
+              <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown @@about">
+                    <a class="nav-link dropdown-toggle" href=" products.html" aria-haspopup="true" aria-expanded="false">Products</a>
+                  </li>
+                  <li class="nav-item @@service"><a class="nav-link" href="apis.html">APIs</a></li>
+                  <li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+        
+                <div class="my-2 my-md-0 ml-lg-4 text-center">
+                  <a href="contact.html" class="btn btn-solid-border btn-round-full">Get a Quote</a>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 <!-- Header Close -->
 
 <!-- Slider Start -->
@@ -552,7 +554,20 @@ Essential Scripts
 <script src="plugins/google-map/map.js" defer></script>
 
 <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js" integrity="sha384-MCw98/SFnGE8fJT3v6JovSslydmx3czMzVrUjL7ZbO4V5/Z9nO+g1pyJA8l2LI3q" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyR8bH8tHvww9+6Z7uoo2soPahRck/P6M" crossorigin="anonymous"></script>
+
+<script>
+  // Add JavaScript to change navbar background on scroll
+  $(window).scroll(function() {
+	if ($(document).scrollTop() > 50) {
+	  $('#navbar').addClass('navbar-scrolled');
+	} else {
+	  $('#navbar').removeClass('navbar-scrolled');
+	}
+  });
+</script>
 
 </body>
-
 </html>
