@@ -554,12 +554,16 @@ ul.dropdown-menu li {
   }
 }
 .bg-1 {
-  background: url("../images/bg/home-2.jpg") no-repeat 50% 50%;
+  background: url("../source/images/apis.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
 .bg-2 {
-  background: url("../images/bg/home-5.jpg");
+  background: url("../source/images/products.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+.bg-3 {
+  background: url("../source/images/contactus.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
