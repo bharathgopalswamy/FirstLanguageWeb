@@ -653,6 +653,21 @@ ul.dropdown-menu li {
   left: -65px;
   font-weight: 700;
 }
+.custom-btn {
+  background-color: #870c7ff6; /* Set the initial background color */
+  color: #fff;
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+
+.custom-btn:hover,
+.custom-btn:visited {
+  background-color: #870c7ff6; /* Keep the same background color on hover and visited */
+  color: #fff;
+}
 
 .counter-item .counter-stat {
   font-size: 50px;
