@@ -371,15 +371,14 @@ a:focus {
 }
 
 header{
-  background: url("../images/bg/home-1.jpg") no-repeat;
-  background-size: cover;
-  background-position: 10% 0%;
-  padding: 0px;
-  position: relative;
-  height: 90vh;
-  
-
+  background: #012347;
 }
+.bghome{
+  background: url('../images/bg/home-1.jpg') no-repeat 10% 10%;
+  background-size: cover;
+}
+
+
 
 
 
@@ -562,20 +561,6 @@ ul.dropdown-menu li {
     transition: all 0.45s ease 0s;
     opacity: 1;
   }
-}
-.bg-1 {
-  background: url("../source/images/apis.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  
-}
-
-.bg-2 {
-  background: url("../source/images/products.jpg") no-repeat 50% 50%;
-  background-size: cover;
-}
-.bg-3 {
-  background: url("../source/images/contactus.jpg") no-repeat 50% 50%;
-  background-size: cover;
 }
 
 .slider {
