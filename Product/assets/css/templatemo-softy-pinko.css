@@ -644,23 +644,14 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/doczen.jpg);
+  background-color: #012347;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
   height: 70vh;
 }
 
-.welcome-area::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value to control the darkness */
-  filter: blur(200px); /* Adjust the blur value to control the blur effect */
-}
+
 
 
 .welcome-area .header-text {
@@ -680,7 +671,7 @@ welcome
   color: #fff;
 }
 
-.welcome-area .header-text p {
+.welcome-area .header-text h4 {
   font-weight: 400;
   font-size: 15px;
   color: #fff;
