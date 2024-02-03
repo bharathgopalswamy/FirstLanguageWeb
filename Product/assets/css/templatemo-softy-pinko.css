@@ -854,7 +854,7 @@ parallax & home seperator
 .mini:before {
   content: '';
   position: absolute;
-  width: 140%;
+  width: 200%;
   height: 140%;
   opacity: .95;
   /* background-repeat: no-repeat;
